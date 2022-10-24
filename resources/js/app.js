@@ -8,6 +8,10 @@ import globalMixin from './includes/mixins/globalMixin'
 import auth from './bootstrap/auth'
 import './bootstrap/day'
 
+
+
+window.GLightbox = GLightbox
+
 Vue.use(ElementUI, {i18n: (key, value) => i18n.t(key, value)})
 
 Vue.prototype.config = window.config
