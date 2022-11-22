@@ -7,7 +7,7 @@
         >
             <div class="container d-flex align-items-center">
                 <h1 class="logo me-auto">
-                    <a href="index.html">Arsha</a>
+                    <a href="index.html">WebStudio</a>
                 </h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo me-auto"><img src="/images/index/logo.png" alt="" class="img-fluid"></a>-->
@@ -21,64 +21,64 @@
                             <a
                                 class="nav-link scrollto active"
                                 href="#hero"
-                            >Home</a>
+                            >В начало</a>
                         </li>
                         <li>
                             <a
                                 class="nav-link scrollto"
                                 href="#about"
-                            >About</a>
+                            >О нас</a>
                         </li>
                         <li>
                             <a
                                 class="nav-link scrollto"
                                 href="#services"
-                            >Services</a>
+                            >Услуги</a>
                         </li>
                         <li>
                             <a
                                 class="nav-link   scrollto"
                                 href="#portfolio"
-                            >Portfolio</a>
+                            >Портфолио</a>
                         </li>
-                        <li>
-                            <a
-                                class="nav-link scrollto"
-                                href="#team"
-                            >Team</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down" /></a>
-                            <ul>
-                                <li><a href="#">Drop Down 1</a></li>
-                                <li class="dropdown">
-                                    <a href="#"><span>Deep Drop Down</span> <i
-                                        class="bi bi-chevron-right"
-                                    /></a>
-                                    <ul>
-                                        <li><a href="#">Deep Drop Down 1</a></li>
-                                        <li><a href="#">Deep Drop Down 2</a></li>
-                                        <li><a href="#">Deep Drop Down 3</a></li>
-                                        <li><a href="#">Deep Drop Down 4</a></li>
-                                        <li><a href="#">Deep Drop Down 5</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Drop Down 2</a></li>
-                                <li><a href="#">Drop Down 3</a></li>
-                                <li><a href="#">Drop Down 4</a></li>
-                            </ul>
-                        </li>
+                        <!--                        <li>-->
+                        <!--                            <a-->
+                        <!--                                class="nav-link scrollto"-->
+                        <!--                                href="#team"-->
+                        <!--                            >Team</a>-->
+                        <!--                        </li>-->
+                        <!--                        <li class="dropdown">-->
+                        <!--                            <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down" /></a>-->
+                        <!--                            <ul>-->
+                        <!--                                <li><a href="#">Drop Down 1</a></li>-->
+                        <!--                                <li class="dropdown">-->
+                        <!--                                    <a href="#"><span>Deep Drop Down</span> <i-->
+                        <!--                                        class="bi bi-chevron-right"-->
+                        <!--                                    /></a>-->
+                        <!--                                    <ul>-->
+                        <!--                                        <li><a href="#">Deep Drop Down 1</a></li>-->
+                        <!--                                        <li><a href="#">Deep Drop Down 2</a></li>-->
+                        <!--                                        <li><a href="#">Deep Drop Down 3</a></li>-->
+                        <!--                                        <li><a href="#">Deep Drop Down 4</a></li>-->
+                        <!--                                        <li><a href="#">Deep Drop Down 5</a></li>-->
+                        <!--                                    </ul>-->
+                        <!--                                </li>-->
+                        <!--                                <li><a href="#">Drop Down 2</a></li>-->
+                        <!--                                <li><a href="#">Drop Down 3</a></li>-->
+                        <!--                                <li><a href="#">Drop Down 4</a></li>-->
+                        <!--                            </ul>-->
+                        <!--                        </li>-->
                         <li>
                             <a
                                 class="nav-link scrollto"
                                 href="#contact"
-                            >Contact</a>
+                            >Контакты</a>
                         </li>
                         <li>
                             <a
                                 class="getstarted scrollto"
                                 href="#about"
-                            >Get Started</a>
+                            >В начало</a>
                         </li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle" />
@@ -98,19 +98,19 @@
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
-                        <h1>Better Solutions For Your Business</h1>
-                        <h2>We are team of talented designers making websites with Bootstrap</h2>
+                        <h1>Отличное решение для Вашего бизнеса</h1>
+                        <h2>Мы комада талантливых разработчиков, создающие вебсайты с энтузиазмом</h2>
                         <div class="d-flex justify-content-center justify-content-lg-start">
                             <a
                                 href="#about"
                                 class="btn-get-started scrollto"
-                            >Get Started</a>
+                            >Начнем знакомство</a>
                             <a
                                 href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
                                 class="glightbox btn-watch-video"
                             ><i
                                 class="bi bi-play-circle"
-                            /><span>Watch Video</span></a>
+                            /></a>
                         </div>
                     </div>
                     <div
@@ -130,6 +130,7 @@
 
         <main id="main">
             <!-- ======= Clients Section ======= -->
+
             <section
                 id="clients"
                 class="clients section-bg"
@@ -141,7 +142,7 @@
                     >
                         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                             <img
-                                src="/images/index/clients/client-1.png"
+                                src="/images/index/clients/codt-242x160.png"
                                 class="img-fluid"
                                 alt=""
                             >
@@ -149,7 +150,7 @@
 
                         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                             <img
-                                src="/images/index/clients/client-2.png"
+                                src="/images/index/clients/komteks-242x160.png"
                                 class="img-fluid"
                                 alt=""
                             >
@@ -157,7 +158,7 @@
 
                         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                             <img
-                                src="/images/index/clients/client-3.png"
+                                src="/images/index/clients/krem-stom-242x160.png"
                                 class="img-fluid"
                                 alt=""
                             >
@@ -165,7 +166,7 @@
 
                         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                             <img
-                                src="/images/index/clients/client-4.png"
+                                src="/images/index/clients/mega-datsun-242x160.png"
                                 class="img-fluid"
                                 alt=""
                             >
@@ -173,7 +174,7 @@
 
                         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                             <img
-                                src="/images/index/clients/client-5.png"
+                                src="/images/index/clients/nav-bud-242x160.png"
                                 class="img-fluid"
                                 alt=""
                             >
@@ -181,14 +182,15 @@
 
                         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                             <img
-                                src="/images/index/clients/client-6.png"
+                                src="/images/index/clients/tehnonikol-1-242x160.png"
                                 class="img-fluid"
                                 alt=""
                             >
                         </div>
                     </div>
                 </div>
-            </section><!-- End Cliens Section -->
+            </section>
+            <!-- End Cliens Section -->
 
             <!-- ======= About Us Section ======= -->
             <section
@@ -200,153 +202,148 @@
                     data-aos="fade-up"
                 >
                     <div class="section-title">
-                        <h2>About Us</h2>
+                        <h2>О нас</h2>
                     </div>
 
                     <div class="row content">
                         <div class="col-lg-6">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                                Мы - команда разработчиков под руководством опытных специалистов с 20 летним стажем в
+                                разработке.
                             </p>
                             <ul>
                                 <li>
-                                    <i class="ri-check-double-line" /> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat
+                                    <i class="ri-check-double-line" /> Наши сотрудники учавствовали в разработке таких
+                                    крупных проектов, как eldorado.ru и vprok.ru
                                 </li>
                                 <li>
-                                    <i class="ri-check-double-line" /> Duis aute irure dolor in reprehenderit in
-                                    voluptate velit
+                                    <i class="ri-check-double-line" /> Мы можем обеспечить полный цикл создания проектов
+                                    от дизайна до автоматизации внедрения на сервера.
                                 </li>
                                 <li>
-                                    <i class="ri-check-double-line" /> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat
+                                    <i class="ri-check-double-line" /> Мы не завышаем цены, так как, работа приносит нам
+                                    удовольствие
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0">
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                Наша команда может выстроить ваш собственный ИТ отдел для внутренней разработки и
+                                сопровождения проектов.
                             </p>
-                            <a
-                                href="#"
-                                class="btn-learn-more"
-                            >Learn More</a>
+                            <p>
+                                Свяжитесь с нами и вместе мы найдем решение, как помочь Вашему бизнесу расцвести.
+                            </p>
                         </div>
                     </div>
                 </div>
             </section><!-- End About Us Section -->
 
             <!-- ======= Why Us Section ======= -->
-            <section
-                id="why-us"
-                class="why-us section-bg"
-            >
-                <div
-                    class="container-fluid"
-                    data-aos="fade-up"
-                >
-                    <div class="row">
-                        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-                            <div class="content">
-                                <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                </p>
-                            </div>
+            <!--            <section-->
+            <!--                id="why-us"-->
+            <!--                class="why-us section-bg"-->
+            <!--            >-->
+            <!--                <div-->
+            <!--                    class="container-fluid"-->
+            <!--                    data-aos="fade-up"-->
+            <!--                >-->
+            <!--                    <div class="row">-->
+            <!--                        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">-->
+            <!--                            <div class="content">-->
+            <!--                                <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>-->
+            <!--                                <p>-->
+            <!--                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor-->
+            <!--                                    incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit-->
+            <!--                                </p>-->
+            <!--                            </div>-->
 
-                            <div class="accordion-list">
-                                <ul>
-                                    <li>
-                                        <a
-                                            data-bs-toggle="collapse"
-                                            class="collapse"
-                                            data-bs-target="#accordion-list-1"
-                                        ><span>01</span> Non consectetur a erat nam
-                                            at lectus urna duis? <i class="bx bx-chevron-down icon-show" /><i
-                                                class="bx bx-chevron-up icon-close"
-                                            /></a>
-                                        <div
-                                            id="accordion-list-1"
-                                            class="collapse show"
-                                            data-bs-parent=".accordion-list"
-                                        >
-                                            <p>
-                                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
-                                                lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla
-                                                urna porttitor rhoncus dolor purus non.
-                                            </p>
-                                        </div>
-                                    </li>
+            <!--                            <div class="accordion-list">-->
+            <!--                                <ul>-->
+            <!--                                    <li>-->
+            <!--                                        <a-->
+            <!--                                            data-bs-toggle="collapse"-->
+            <!--                                            class="collapse"-->
+            <!--                                            data-bs-target="#accordion-list-1"-->
+            <!--                                        ><span>01</span> Non consectetur a erat nam-->
+            <!--                                            at lectus urna duis? <i class="bx bx-chevron-down icon-show" /><i-->
+            <!--                                                class="bx bx-chevron-up icon-close"-->
+            <!--                                            /></a>-->
+            <!--                                        <div-->
+            <!--                                            id="accordion-list-1"-->
+            <!--                                            class="collapse show"-->
+            <!--                                            data-bs-parent=".accordion-list"-->
+            <!--                                        >-->
+            <!--                                            <p>-->
+            <!--                                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat-->
+            <!--                                                lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla-->
+            <!--                                                urna porttitor rhoncus dolor purus non.-->
+            <!--                                            </p>-->
+            <!--                                        </div>-->
+            <!--                                    </li>-->
 
-                                    <li>
-                                        <a
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#accordion-list-2"
-                                            class="collapsed"
-                                        ><span>02</span> Feugiat scelerisque varius morbi enim nunc?
-                                            <i class="bx bx-chevron-down icon-show" /><i
-                                                class="bx bx-chevron-up icon-close"
-                                            /></a>
-                                        <div
-                                            id="accordion-list-2"
-                                            class="collapse"
-                                            data-bs-parent=".accordion-list"
-                                        >
-                                            <p>
-                                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
-                                                Id interdum velit laoreet id donec ultrices. Fringilla phasellus
-                                                faucibus scelerisque eleifend donec pretium. Est pellentesque elit
-                                                ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
-                                                tincidunt dui.
-                                            </p>
-                                        </div>
-                                    </li>
+            <!--                                    <li>-->
+            <!--                                        <a-->
+            <!--                                            data-bs-toggle="collapse"-->
+            <!--                                            data-bs-target="#accordion-list-2"-->
+            <!--                                            class="collapsed"-->
+            <!--                                        ><span>02</span> Feugiat scelerisque varius morbi enim nunc?-->
+            <!--                                            <i class="bx bx-chevron-down icon-show" /><i-->
+            <!--                                                class="bx bx-chevron-up icon-close"-->
+            <!--                                            /></a>-->
+            <!--                                        <div-->
+            <!--                                            id="accordion-list-2"-->
+            <!--                                            class="collapse"-->
+            <!--                                            data-bs-parent=".accordion-list"-->
+            <!--                                        >-->
+            <!--                                            <p>-->
+            <!--                                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.-->
+            <!--                                                Id interdum velit laoreet id donec ultrices. Fringilla phasellus-->
+            <!--                                                faucibus scelerisque eleifend donec pretium. Est pellentesque elit-->
+            <!--                                                ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa-->
+            <!--                                                tincidunt dui.-->
+            <!--                                            </p>-->
+            <!--                                        </div>-->
+            <!--                                    </li>-->
 
-                                    <li>
-                                        <a
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#accordion-list-3"
-                                            class="collapsed"
-                                        ><span>03</span> Dolor sit amet consectetur adipiscing elit?
-                                            <i class="bx bx-chevron-down icon-show" /><i
-                                                class="bx bx-chevron-up icon-close"
-                                            /></a>
-                                        <div
-                                            id="accordion-list-3"
-                                            class="collapse"
-                                            data-bs-parent=".accordion-list"
-                                        >
-                                            <p>
-                                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis
-                                                orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam
-                                                sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus
-                                                urna duis convallis convallis tellus. Urna molestie at elementum eu
-                                                facilisis sed odio morbi quis
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <!--                                    <li>-->
+            <!--                                        <a-->
+            <!--                                            data-bs-toggle="collapse"-->
+            <!--                                            data-bs-target="#accordion-list-3"-->
+            <!--                                            class="collapsed"-->
+            <!--                                        ><span>03</span> Dolor sit amet consectetur adipiscing elit?-->
+            <!--                                            <i class="bx bx-chevron-down icon-show" /><i-->
+            <!--                                                class="bx bx-chevron-up icon-close"-->
+            <!--                                            /></a>-->
+            <!--                                        <div-->
+            <!--                                            id="accordion-list-3"-->
+            <!--                                            class="collapse"-->
+            <!--                                            data-bs-parent=".accordion-list"-->
+            <!--                                        >-->
+            <!--                                            <p>-->
+            <!--                                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis-->
+            <!--                                                orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam-->
+            <!--                                                sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus-->
+            <!--                                                urna duis convallis convallis tellus. Urna molestie at elementum eu-->
+            <!--                                                facilisis sed odio morbi quis-->
+            <!--                                            </p>-->
+            <!--                                        </div>-->
+            <!--                                    </li>-->
+            <!--                                </ul>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
 
-                        <div
-                            class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-                            style="background-image: url('../../../../resources/img/why-us.png');"
-                            data-aos="zoom-in"
-                            data-aos-delay="150"
-                        >
-&nbsp;
-                        </div>
-                    </div>
-                </div>
-            </section><!-- End Why Us Section -->
+            <!--                        <div-->
+            <!--                            class="col-lg-5 align-items-stretch order-1 order-lg-2 img"-->
+            <!--                            style="background-image: url('../../../../resources/img/why-us.png');"-->
+            <!--                            data-aos="zoom-in"-->
+            <!--                            data-aos-delay="150"-->
+            <!--                        >-->
+            <!--&nbsp;-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </section>&lt;!&ndash; End Why Us Section &ndash;&gt;-->
 
             <!-- ======= Skills Section ======= -->
             <section
@@ -374,16 +371,16 @@
                             data-aos="fade-left"
                             data-aos-delay="100"
                         >
-                            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+                            <h3>Наши компетенции</h3>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                                Есть основные направления, с которыми мы работаем, но никак не ограничиваемся только
+                                ими.
+                                В зависимости от Ваших пожеланий, мы можем расширить необходимый набор.
                             </p>
 
                             <div class="skills-content">
                                 <div class="progress">
-                                    <span class="skill">HTML <i class="val">100%</i></span>
+                                    <span class="skill">Bitrix <i class="val">100%</i></span>
                                     <div class="progress-bar-wrap">
                                         <div
                                             class="progress-bar"
@@ -396,7 +393,7 @@
                                 </div>
 
                                 <div class="progress">
-                                    <span class="skill">CSS <i class="val">90%</i></span>
+                                    <span class="skill">Laravel <i class="val">90%</i></span>
                                     <div class="progress-bar-wrap">
                                         <div
                                             class="progress-bar"
@@ -409,7 +406,7 @@
                                 </div>
 
                                 <div class="progress">
-                                    <span class="skill">JavaScript <i class="val">75%</i></span>
+                                    <span class="skill">VUE.js <i class="val">75%</i></span>
                                     <div class="progress-bar-wrap">
                                         <div
                                             class="progress-bar"
@@ -422,7 +419,7 @@
                                 </div>
 
                                 <div class="progress">
-                                    <span class="skill">Photoshop <i class="val">55%</i></span>
+                                    <span class="skill">CI/CD <i class="val">55%</i></span>
                                     <div class="progress-bar-wrap">
                                         <div
                                             class="progress-bar"
@@ -449,11 +446,10 @@
                     data-aos="fade-up"
                 >
                     <div class="section-title">
-                        <h2>Services</h2>
+                        <h2>Услуги</h2>
                         <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                            Мы не ограничиваемся в Ваших пожеланиях, наши сотрудники рассматривают все предложения,
+                            связанные с веб-разработкой и не только.
                         </p>
                     </div>
 
@@ -467,8 +463,8 @@
                                 <div class="icon">
                                     <i class="bx bxl-dribbble" />
                                 </div>
-                                <h4><a href="">Lorem Ipsum</a></h4>
-                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                <h4><a href="">Интернет-сайты</a></h4>
+                                <p>От визиток до магазинов и маркет-плейсов</p>
                             </div>
                         </div>
 
@@ -481,8 +477,8 @@
                                 <div class="icon">
                                     <i class="bx bx-file" />
                                 </div>
-                                <h4><a href="">Sed ut perspici</a></h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                <h4><a href="">Техподдержка</a></h4>
+                                <p>Возьмем на себя заботу по уходу за вашим интернет-питомцем</p>
                             </div>
                         </div>
 
@@ -495,8 +491,8 @@
                                 <div class="icon">
                                     <i class="bx bx-tachometer" />
                                 </div>
-                                <h4><a href="">Magni Dolores</a></h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                <h4><a href="">Построение процессов</a></h4>
+                                <p>Наладим качественную работу в вашем ИТ отделе</p>
                             </div>
                         </div>
 
@@ -509,8 +505,8 @@
                                 <div class="icon">
                                     <i class="bx bx-layer" />
                                 </div>
-                                <h4><a href="">Nemo Enim</a></h4>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                <h4><a href="">Обучение</a></h4>
+                                <p>Узнайте, что такое ИТ, и с чем его едят</p>
                             </div>
                         </div>
                     </div>
@@ -518,32 +514,32 @@
             </section><!-- End Services Section -->
 
             <!-- ======= Cta Section ======= -->
-            <section
-                id="cta"
-                class="cta"
-            >
-                <div
-                    class="container"
-                    data-aos="zoom-in"
-                >
-                    <div class="row">
-                        <div class="col-lg-9 text-center text-lg-start">
-                            <h3>Call To Action</h3>
-                            <p>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="col-lg-3 cta-btn-container text-center">
-                            <a
-                                class="cta-btn align-middle"
-                                href="#"
-                            >Call To Action</a>
-                        </div>
-                    </div>
-                </div>
-            </section><!-- End Cta Section -->
+            <!--            <section-->
+            <!--                id="cta"-->
+            <!--                class="cta"-->
+            <!--            >-->
+            <!--                <div-->
+            <!--                    class="container"-->
+            <!--                    data-aos="zoom-in"-->
+            <!--                >-->
+            <!--                    <div class="row">-->
+            <!--                        <div class="col-lg-9 text-center text-lg-start">-->
+            <!--                            <h3>Call To Action</h3>-->
+            <!--                            <p>-->
+            <!--                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat-->
+            <!--                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui-->
+            <!--                                officia deserunt mollit anim id est laborum.-->
+            <!--                            </p>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-lg-3 cta-btn-container text-center">-->
+            <!--                            <a-->
+            <!--                                class="cta-btn align-middle"-->
+            <!--                                href="#"-->
+            <!--                            >Call To Action</a>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </section>&lt;!&ndash; End Cta Section &ndash;&gt;-->
 
             <!-- ======= Portfolio Section ======= -->
             <section
@@ -555,11 +551,9 @@
                     data-aos="fade-up"
                 >
                     <div class="section-title">
-                        <h2>Portfolio</h2>
+                        <h2>Портфолио</h2>
                         <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                            Здесь представлены лишь некоторые проекты, с которыми мы работали.
                         </p>
                     </div>
 
@@ -575,11 +569,11 @@
                         >
                             All
                         </li>
+                        <li data-filter=".filter-shop">
+                            Shop
+                        </li>
                         <li data-filter=".filter-app">
                             App
-                        </li>
-                        <li data-filter=".filter-card">
-                            Card
                         </li>
                         <li data-filter=".filter-web">
                             Web
@@ -591,50 +585,18 @@
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/portfolio-1.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-1.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="App 1"
-                                ><i class="bx bx-plus" /></a>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-
                         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-img">
                                 <img
-                                    src="/images/index/portfolio/portfolio-2.jpg"
+                                    src="/images/index/portfolio/9zhizney1.jpg"
                                     class="img-fluid"
                                     alt=""
                                 >
                             </div>
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-2.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="Web 3"
-                                ><i class="bx bx-plus" /></a>
+                                <h4>9 Жизней</h4>
+                                <p>Ветеренарная клиника</p>
+                                <p>Bitrix</p>
                                 <a
                                     href="portfolio-details.html"
                                     class="details-link"
@@ -644,78 +606,18 @@
                                 /></a>
                             </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/portfolio-3.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>App</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-3.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="App 2"
-                                ><i class="bx bx-plus" /></a>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/portfolio-4.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-4.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="Card 2"
-                                ><i class="bx bx-plus" /></a>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-
                         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-img">
                                 <img
-                                    src="/images/index/portfolio/portfolio-5.jpg"
+                                    src="/images/index/portfolio/teplo-tn-lp1.jpg"
                                     class="img-fluid"
                                     alt=""
                                 >
                             </div>
                             <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Web</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-5.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="Web 2"
-                                ><i class="bx bx-plus" /></a>
+                                <h4>Технониколь</h4>
+                                <p>Калькулятор выбора материала ("ТехноНИКОЛЬ")</p>
+                                <p>Bitrix</p>
                                 <a
                                     href="portfolio-details.html"
                                     class="details-link"
@@ -725,105 +627,208 @@
                                 /></a>
                             </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/portfolio-6.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>App</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-6.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="App 3"
-                                ><i class="bx bx-plus" /></a>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/portfolio-7.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-7.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="Card 1"
-                                ><i class="bx bx-plus" /></a>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/portfolio-8.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
-                                <a
-                                    href="../../../../resources/img/portfolio/portfolio-8.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="Card 3"
-                                ><i class="bx bx-plus" /></a>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-
                         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-img">
                                 <img
-                                    src="/images/index/portfolio/portfolio-9.jpg"
+                                    src="/images/index/portfolio/v-oda1.jpg"
                                     class="img-fluid"
                                     alt=""
                                 >
                             </div>
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
+                                <h4>v-oda</h4>
+                                <p>Сервис доставки воды "Утренняя Звезда"</p>
+                                <p>Bitrix</p>
                                 <a
-                                    href="../../../../resources/img/portfolio/portfolio-9.jpg"
-                                    data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox preview-link"
-                                    title="Web 3"
-                                ><i class="bx bx-plus" /></a>
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/megaalians-datsun1.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>megaaliance-datsun</h4>
+                                <p>Автосалон "МегаАльянс"</p>
+                                <p>Bitrix</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/phoneone.png"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>LendsBay</h4>
+                                <p>Онлайн-займы на своих условиях</p>
+                                <p>React-native, python, iohttp</p>
+
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/clinic.JPG"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Гута клиника</h4>
+                                <p>Частная клиника</p>
+                                <p>Bitrix</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/coralstrand.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Coral strand</h4>
+                                <p>Сайт отеля на сейшеллах</p>
+                                <p>Bitrix</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/savoy.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Savoy</h4>
+                                <p>Сайт отеля в Москве</p>
+                                <p>Bitrix</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/uniconf.JPG"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Uniconf</h4>
+                                <p>Объединенные кондитеры</p>
+                                <p>Bitrix</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/alenka.JPG"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Alenka</h4>
+                                <p>Кондитерский интернет-магазин</p>
+                                <p>Bitrix, Vue.js</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/eldorado.JPG"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Eldorado</h4>
+                                <p>Магазин домашней техники</p>
+                                <p>Bitrix, React, Laravel</p>
+                                <a
+                                    href="portfolio-details.html"
+                                    class="details-link"
+                                    title="More Details"
+                                ><i
+                                    class="bx bx-link"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+                            <div class="portfolio-img">
+                                <img
+                                    src="/images/index/portfolio/vprok.JPG"
+                                    class="img-fluid"
+                                    alt=""
+                                >
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Перекресток</h4>
+                                <p>Магазин товаров для дома</p>
+                                <p>Bitrix, React, Laravel</p>
                                 <a
                                     href="portfolio-details.html"
                                     class="details-link"
@@ -838,134 +843,134 @@
             </section><!-- End Portfolio Section -->
 
             <!-- ======= Team Section ======= -->
-            <section
-                id="team"
-                class="team section-bg"
-            >
-                <div
-                    class="container"
-                    data-aos="fade-up"
-                >
-                    <div class="section-title">
-                        <h2>Team</h2>
-                        <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                        </p>
-                    </div>
+            <!--            <section-->
+            <!--                id="team"-->
+            <!--                class="team section-bg"-->
+            <!--            >-->
+            <!--                <div-->
+            <!--                    class="container"-->
+            <!--                    data-aos="fade-up"-->
+            <!--                >-->
+            <!--                    <div class="section-title">-->
+            <!--                        <h2>Team</h2>-->
+            <!--                        <p>-->
+            <!--                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.-->
+            <!--                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit-->
+            <!--                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.-->
+            <!--                        </p>-->
+            <!--                    </div>-->
 
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div
-                                class="member d-flex align-items-start"
-                                data-aos="zoom-in"
-                                data-aos-delay="100"
-                            >
-                                <div class="pic">
-                                    <img
-                                        src="/images/index/team/team-1.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    >
-                                </div>
-                                <div class="member-info">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
-                                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill" /></a>
-                                        <a href=""><i class="ri-facebook-fill" /></a>
-                                        <a href=""><i class="ri-instagram-fill" /></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!--                    <div class="row">-->
+            <!--                        <div class="col-lg-6">-->
+            <!--                            <div-->
+            <!--                                class="member d-flex align-items-start"-->
+            <!--                                data-aos="zoom-in"-->
+            <!--                                data-aos-delay="100"-->
+            <!--                            >-->
+            <!--                                <div class="pic">-->
+            <!--                                    <img-->
+            <!--                                        src="/images/index/team/team-1.jpg"-->
+            <!--                                        class="img-fluid"-->
+            <!--                                        alt=""-->
+            <!--                                    >-->
+            <!--                                </div>-->
+            <!--                                <div class="member-info">-->
+            <!--                                    <h4>Walter White</h4>-->
+            <!--                                    <span>Chief Executive Officer</span>-->
+            <!--                                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>-->
+            <!--                                    <div class="social">-->
+            <!--                                        <a href=""><i class="ri-twitter-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-facebook-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-instagram-fill" /></a>-->
+            <!--                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
 
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <div
-                                class="member d-flex align-items-start"
-                                data-aos="zoom-in"
-                                data-aos-delay="200"
-                            >
-                                <div class="pic">
-                                    <img
-                                        src="/images/index/team/team-2.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    >
-                                </div>
-                                <div class="member-info">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
-                                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill" /></a>
-                                        <a href=""><i class="ri-facebook-fill" /></a>
-                                        <a href=""><i class="ri-instagram-fill" /></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!--                        <div class="col-lg-6 mt-4 mt-lg-0">-->
+            <!--                            <div-->
+            <!--                                class="member d-flex align-items-start"-->
+            <!--                                data-aos="zoom-in"-->
+            <!--                                data-aos-delay="200"-->
+            <!--                            >-->
+            <!--                                <div class="pic">-->
+            <!--                                    <img-->
+            <!--                                        src="/images/index/team/team-2.jpg"-->
+            <!--                                        class="img-fluid"-->
+            <!--                                        alt=""-->
+            <!--                                    >-->
+            <!--                                </div>-->
+            <!--                                <div class="member-info">-->
+            <!--                                    <h4>Sarah Jhonson</h4>-->
+            <!--                                    <span>Product Manager</span>-->
+            <!--                                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>-->
+            <!--                                    <div class="social">-->
+            <!--                                        <a href=""><i class="ri-twitter-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-facebook-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-instagram-fill" /></a>-->
+            <!--                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
 
-                        <div class="col-lg-6 mt-4">
-                            <div
-                                class="member d-flex align-items-start"
-                                data-aos="zoom-in"
-                                data-aos-delay="300"
-                            >
-                                <div class="pic">
-                                    <img
-                                        src="/images/index/team/team-3.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    >
-                                </div>
-                                <div class="member-info">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
-                                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill" /></a>
-                                        <a href=""><i class="ri-facebook-fill" /></a>
-                                        <a href=""><i class="ri-instagram-fill" /></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!--                        <div class="col-lg-6 mt-4">-->
+            <!--                            <div-->
+            <!--                                class="member d-flex align-items-start"-->
+            <!--                                data-aos="zoom-in"-->
+            <!--                                data-aos-delay="300"-->
+            <!--                            >-->
+            <!--                                <div class="pic">-->
+            <!--                                    <img-->
+            <!--                                        src="/images/index/team/team-3.jpg"-->
+            <!--                                        class="img-fluid"-->
+            <!--                                        alt=""-->
+            <!--                                    >-->
+            <!--                                </div>-->
+            <!--                                <div class="member-info">-->
+            <!--                                    <h4>William Anderson</h4>-->
+            <!--                                    <span>CTO</span>-->
+            <!--                                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>-->
+            <!--                                    <div class="social">-->
+            <!--                                        <a href=""><i class="ri-twitter-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-facebook-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-instagram-fill" /></a>-->
+            <!--                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
 
-                        <div class="col-lg-6 mt-4">
-                            <div
-                                class="member d-flex align-items-start"
-                                data-aos="zoom-in"
-                                data-aos-delay="400"
-                            >
-                                <div class="pic">
-                                    <img
-                                        src="/images/index/team/team-4.jpg"
-                                        class="img-fluid"
-                                        alt=""
-                                    >
-                                </div>
-                                <div class="member-info">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill" /></a>
-                                        <a href=""><i class="ri-facebook-fill" /></a>
-                                        <a href=""><i class="ri-instagram-fill" /></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section><!-- End Team Section -->
+            <!--                        <div class="col-lg-6 mt-4">-->
+            <!--                            <div-->
+            <!--                                class="member d-flex align-items-start"-->
+            <!--                                data-aos="zoom-in"-->
+            <!--                                data-aos-delay="400"-->
+            <!--                            >-->
+            <!--                                <div class="pic">-->
+            <!--                                    <img-->
+            <!--                                        src="/images/index/team/team-4.jpg"-->
+            <!--                                        class="img-fluid"-->
+            <!--                                        alt=""-->
+            <!--                                    >-->
+            <!--                                </div>-->
+            <!--                                <div class="member-info">-->
+            <!--                                    <h4>Amanda Jepson</h4>-->
+            <!--                                    <span>Accountant</span>-->
+            <!--                                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>-->
+            <!--                                    <div class="social">-->
+            <!--                                        <a href=""><i class="ri-twitter-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-facebook-fill" /></a>-->
+            <!--                                        <a href=""><i class="ri-instagram-fill" /></a>-->
+            <!--                                        <a href=""> <i class="ri-linkedin-box-fill" /> </a>-->
+            <!--                                    </div>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </section>&lt;!&ndash; End Team Section &ndash;&gt;-->
 
             <!-- ======= Pricing Section ======= -->
             <section
@@ -977,11 +982,11 @@
                     data-aos="fade-up"
                 >
                     <div class="section-title">
-                        <h2>Pricing</h2>
+                        <h2>Цены</h2>
                         <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                            У нас гибкая система построения цен на основании Ваших пожеланий, например, врятли Вам стоит
+                            оплачивать ведущего разработчика, если Вам необходим сайт-визитка.
+                            Однако, есть основные паттерны, на которые мы ориентируемся, и они представлены ниже.
                         </p>
                     </div>
 
@@ -992,24 +997,20 @@
                             data-aos-delay="100"
                         >
                             <div class="box">
-                                <h3>Free Plan</h3>
-                                <h4><sup>$</sup>0<span>per month</span></h4>
+                                <h3>Сайт-шаблон</h3>
+                                <h4><sup>&#8381; </sup>1000<span>за человеко-час</span></h4>
                                 <ul>
-                                    <li><i class="bx bx-check" /> Quam adipiscing vitae proin</li>
-                                    <li><i class="bx bx-check" /> Nec feugiat nisl pretium</li>
-                                    <li><i class="bx bx-check" /> Nulla at volutpat diam uteera</li>
+                                    <li><i class="bx bx-check" /> Интегрируем готовый шаблон в CMS</li>
+                                    <li><i class="bx bx-check" /> Сайт-визитка</li>
+                                    <li><i class="bx bx-check" /> Разработка по Вашему макету</li>
                                     <li class="na">
-                                        <i class="bx bx-x" /> <span>Pharetra massa massa ultricies</span>
-                                    </li>
-                                    <li class="na">
-                                        <i class="bx bx-x" />
-                                        <span>Massa ultricies mi quis hendrerit</span>
+                                        <i class="bx bx-x" /> <span>Услуги дизайна оговариваются отдельно</span>
                                     </li>
                                 </ul>
                                 <a
                                     href="#"
                                     class="buy-btn"
-                                >Get Started</a>
+                                >Выбрать</a>
                             </div>
                         </div>
 
@@ -1019,19 +1020,18 @@
                             data-aos-delay="200"
                         >
                             <div class="box featured">
-                                <h3>Business Plan</h3>
-                                <h4><sup>$</sup>29<span>per month</span></h4>
+                                <h3>Индивидуальная разработка</h3>
+                                <h4><sup>&#8381; </sup>2000<span>за человеко-час</span></h4>
                                 <ul>
-                                    <li><i class="bx bx-check" /> Quam adipiscing vitae proin</li>
-                                    <li><i class="bx bx-check" /> Nec feugiat nisl pretium</li>
-                                    <li><i class="bx bx-check" /> Nulla at volutpat diam uteera</li>
-                                    <li><i class="bx bx-check" /> Pharetra massa massa ultricies</li>
-                                    <li><i class="bx bx-check" /> Massa ultricies mi quis hendrerit</li>
+                                    <li><i class="bx bx-check" /> Проводится анализ проекта специалистами и формируется КП</li>
+                                    <li><i class="bx bx-check" /> Подключаются разработчики не ниже medium уровня</li>
+                                    <li><i class="bx bx-check" /> Месяц техподдержки в подарок</li>
+                                    <li><i class="bx bx-check" /> Проект разрабатывается по scrum с 2 недельными интервалами отчетности</li>
                                 </ul>
                                 <a
                                     href="#"
                                     class="buy-btn"
-                                >Get Started</a>
+                                >Выбрать</a>
                             </div>
                         </div>
 
@@ -1041,19 +1041,18 @@
                             data-aos-delay="300"
                         >
                             <div class="box">
-                                <h3>Developer Plan</h3>
-                                <h4><sup>$</sup>49<span>per month</span></h4>
+                                <h3>Техподдержка</h3>
+                                <h4><sup>&#8381; </sup>2500<span>за человеко-час</span></h4>
                                 <ul>
-                                    <li><i class="bx bx-check" /> Quam adipiscing vitae proin</li>
-                                    <li><i class="bx bx-check" /> Nec feugiat nisl pretium</li>
-                                    <li><i class="bx bx-check" /> Nulla at volutpat diam uteera</li>
-                                    <li><i class="bx bx-check" /> Pharetra massa massa ultricies</li>
-                                    <li><i class="bx bx-check" /> Massa ultricies mi quis hendrerit</li>
+                                    <li><i class="bx bx-check" /> Фикс: 40 чч в месяц - 100 000&#8381;</li>
+                                    <li><i class="bx bx-check" /> Цена одна, независимо от привлекаемых специалистов под нужды</li>
+                                    <li><i class="bx bx-check" /> Сопровождение проекта на всех его этапах ЖЦ</li>
+                                    <li><i class="bx bx-check" /> Контроль за состоянием и производительностью</li>
                                 </ul>
                                 <a
                                     href="#"
                                     class="buy-btn"
-                                >Get Started</a>
+                                >Выбрать</a>
                             </div>
                         </div>
                     </div>
@@ -1061,161 +1060,8 @@
             </section><!-- End Pricing Section -->
 
             <!-- ======= Frequently Asked Questions Section ======= -->
-            <section
-                id="faq"
-                class="faq section-bg"
-            >
-                <div
-                    class="container"
-                    data-aos="fade-up"
-                >
-                    <div class="section-title">
-                        <h2>Frequently Asked Questions</h2>
-                        <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                        </p>
-                    </div>
 
-                    <div class="faq-list">
-                        <ul>
-                            <li
-                                data-aos="fade-up"
-                                data-aos-delay="100"
-                            >
-                                <i class="bx bx-help-circle icon-help" /> <a
-                                    data-bs-toggle="collapse"
-                                    class="collapse"
-                                    data-bs-target="#faq-list-1"
-                                >Non
-                                    consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show" /><i
-                                        class="bx bx-chevron-up icon-close"
-                                    /></a>
-                                <div
-                                    id="faq-list-1"
-                                    class="collapse show"
-                                    data-bs-parent=".faq-list"
-                                >
-                                    <p>
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                        rhoncus dolor purus non.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li
-                                data-aos="fade-up"
-                                data-aos-delay="200"
-                            >
-                                <i class="bx bx-help-circle icon-help" /> <a
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq-list-2"
-                                    class="collapsed"
-                                >Feugiat scelerisque
-                                    varius morbi enim nunc? <i class="bx bx-chevron-down icon-show" /><i
-                                        class="bx bx-chevron-up icon-close"
-                                    /></a>
-                                <div
-                                    id="faq-list-2"
-                                    class="collapse"
-                                    data-bs-parent=".faq-list"
-                                >
-                                    <p>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <i class="bx bx-help-circle icon-help" /> <a
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq-list-3"
-                                    class="collapsed"
-                                >Dolor sit amet
-                                    consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show" /><i
-                                        class="bx bx-chevron-up icon-close"
-                                    /></a>
-                                <div
-                                    id="faq-list-3"
-                                    class="collapse"
-                                    data-bs-parent=".faq-list"
-                                >
-                                    <p>
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                        suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                        convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li
-                                data-aos="fade-up"
-                                data-aos-delay="400"
-                            >
-                                <i class="bx bx-help-circle icon-help" /> <a
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq-list-4"
-                                    class="collapsed"
-                                >Tempus quam
-                                    pellentesque nec nam aliquam sem et tortor consequat? <i
-                                        class="bx bx-chevron-down icon-show"
-                                    /><i
-                                        class="bx bx-chevron-up icon-close"
-                                    /></a>
-                                <div
-                                    id="faq-list-4"
-                                    class="collapse"
-                                    data-bs-parent=".faq-list"
-                                >
-                                    <p>
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
-                                        suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan.
-                                        Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit
-                                        turpis cursus in.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li
-                                data-aos="fade-up"
-                                data-aos-delay="500"
-                            >
-                                <i class="bx bx-help-circle icon-help" /> <a
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq-list-5"
-                                    class="collapsed"
-                                >Tortor vitae purus
-                                    faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                        class="bx bx-chevron-down icon-show"
-                                    /><i
-                                        class="bx bx-chevron-up icon-close"
-                                    /></a>
-                                <div
-                                    id="faq-list-5"
-                                    class="collapse"
-                                    data-bs-parent=".faq-list"
-                                >
-                                    <p>
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies
-                                        leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet.
-                                        Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu
-                                        scelerisque.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section><!-- End Frequently Asked Questions Section -->
+            <!-- End Frequently Asked Questions Section -->
 
             <!-- ======= Contact Section ======= -->
             <section
@@ -1227,33 +1073,31 @@
                     data-aos="fade-up"
                 >
                     <div class="section-title">
-                        <h2>Contact</h2>
+                        <h2>Контакты</h2>
                         <p>
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                            Свяжитесь с нами, чтобы узнать о нас подробнее.
                         </p>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-5 d-flex align-items-stretch">
                             <div class="info">
-                                <div class="address">
-                                    <i class="bi bi-geo-alt" />
-                                    <h4>Location:</h4>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
-                                </div>
-
                                 <div class="email">
                                     <i class="bi bi-envelope" />
                                     <h4>Email:</h4>
-                                    <p>info@example.com</p>
+                                    <p>dvzakusilo@yandex.ru</p>
                                 </div>
 
                                 <div class="phone">
                                     <i class="bi bi-phone" />
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 55s</p>
+                                    <p>+7 968 575 61 83</p>
+                                </div>
+
+                                <div class="address">
+                                    <i class="bi bi-address" />
+                                    <h4>Telegram:</h4>
+                                    <p>dvzakusilo</p>
                                 </div>
 
                                 <iframe
@@ -1336,106 +1180,17 @@
 
         <!-- ======= Footer ======= -->
         <footer id="footer">
-            <div class="footer-newsletter">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <h4>Join Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                            <form
-                                action=""
-                                method="post"
-                            >
-                                <input
-                                    type="email"
-                                    name="email"
-                                ><input
-                                    type="submit"
-                                    value="Subscribe"
-                                >
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="footer-newsletter" />
 
             <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Arsha</h3>
-                            <p>
-                                A108 Adam Street <br>
-                                New York, NY 535022<br>
-                                United States <br><br>
-                                <strong>Phone:</strong> +1 5589 55488 55<br>
-                                <strong>Email:</strong> info@example.com<br>
-                            </p>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Home</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">About us</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Services</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Terms of service</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Privacy policy</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Web Design</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Web Development</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Product Management</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Marketing</a></li>
-                                <li><i class="bx bx-chevron-right" /> <a href="#">Graphic Design</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Social Networks</h4>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-                            <div class="social-links mt-3">
-                                <a
-                                    href="#"
-                                    class="twitter"
-                                ><i class="bx bxl-twitter" /></a>
-                                <a
-                                    href="#"
-                                    class="facebook"
-                                ><i class="bx bxl-facebook" /></a>
-                                <a
-                                    href="#"
-                                    class="instagram"
-                                ><i class="bx bxl-instagram" /></a>
-                                <a
-                                    href="#"
-                                    class="google-plus"
-                                ><i class="bx bxl-skype" /></a>
-                                <a
-                                    href="#"
-                                    class="linkedin"
-                                ><i class="bx bxl-linkedin" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="container" />
             </div>
 
             <div class="container footer-bottom clearfix">
                 <div class="copyright">
-                    &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+                    &copy; Copyright <strong><span>WebStudio</span></strong>. 2022
                 </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                </div>
+                <div class="credits" />
             </div>
         </footer><!-- End Footer -->
 
@@ -1605,6 +1360,7 @@ export default {
         transition: all 0.5s;
         z-index: 997;
         padding: 15px 0;
+        background: #3490dc;
     }
 
     #header.header-scrolled,
@@ -1676,7 +1432,7 @@ export default {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover > a {
-        color: #47b2e4;
+        color: yellow;
     }
 
     .navbar .getstarted,
@@ -1880,7 +1636,7 @@ export default {
     #hero {
         width: 100%;
         height: 80vh;
-        background: #37517e;
+        background: #3490dc;
     }
 
     #hero .container {
