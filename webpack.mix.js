@@ -40,4 +40,4 @@ if (process.env.sync) {
     })
 }
 
-mix.webpackConfig(config)
+mix.webpackConfig(config);
