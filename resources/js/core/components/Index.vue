@@ -1011,8 +1011,9 @@
                                     </li>
                                 </ul>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     class="buy-btn"
+                                    @click="check('base')"
                                 >Выбрать</a>
                             </div>
                         </div>
@@ -1038,8 +1039,9 @@
                                     </li>
                                 </ul>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     class="buy-btn"
+                                    @click="check('pro')"
                                 >Выбрать</a>
                             </div>
                         </div>
@@ -1062,8 +1064,9 @@
                                     <li><i class="bx bx-check" /> Контроль за состоянием и производительностью</li>
                                 </ul>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     class="buy-btn"
+                                    @click="check('support')"
                                 >Выбрать</a>
                             </div>
                         </div>
@@ -1122,14 +1125,20 @@
 
                         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                             <form
-                                action="forms/contact.php"
+                                action="/send-mail/"
                                 method="post"
                                 role="form"
                                 class="php-email-form"
                             >
+                                <input
+                                    type="hidden"
+                                    name="_token"
+                                    :value="csrf"
+                                >
+
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <label for="name">Your Name</label>
+                                        <label for="name">Ваше имя</label>
                                         <input
                                             id="name"
                                             type="text"
@@ -1139,7 +1148,7 @@
                                         >
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <label for="name">Your Email</label>
+                                        <label for="name">Почта для связи</label>
                                         <input
                                             id="email"
                                             type="email"
@@ -1150,7 +1159,58 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="name">Subject</label>
+                                    <label>Тариф</label>
+                                    <div class="form-check">
+                                        <input
+                                            id="flexCheckBase"
+                                            class="form-check-input form-control"
+                                            type="checkbox"
+                                            name="price[]"
+                                            value="base"
+                                            :checked="checked['base']"
+                                        >
+                                        <label
+                                            class="form-check-label form-control"
+                                            for="flexCheckBase"
+                                        >
+                                            Базовый
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                            id="flexCheckPro"
+                                            class="form-check-input form-control"
+                                            type="checkbox"
+                                            name="price[]"
+                                            value="pro"
+                                            :checked="checked['pro']"
+                                        >
+                                        <label
+                                            class="form-check-label form-control"
+                                            for="flexCheckPro"
+                                        >
+                                            Про
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                            id="flexCheckSupport"
+                                            class="form-check-input form-control"
+                                            type="checkbox"
+                                            name="price[]"
+                                            value="support"
+                                            :checked="checked['support']"
+                                        >
+                                        <label
+                                            class="form-check-label form-control"
+                                            for="flexCheckSupport"
+                                        >
+                                            Техподдержка
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Заголовок</label>
                                     <input
                                         id="subject"
                                         type="text"
@@ -1159,8 +1219,9 @@
                                         required
                                     >
                                 </div>
+
                                 <div class="form-group">
-                                    <label for="name">Message</label>
+                                    <label for="name">Сообщение</label>
                                     <textarea
                                         class="form-control"
                                         name="message"
@@ -1179,7 +1240,7 @@
                                 </div>
                                 <div class="text-center">
                                     <button type="submit">
-                                        Send Message
+                                        Отправить
                                     </button>
                                 </div>
                             </form>
@@ -1237,7 +1298,13 @@ window.Isotope = Isotope
 export default {
     name: 'Index',
     data: () => ({
-        title: window.config.appName
+        title: window.config.appName,
+        checked: {
+            'base': false,
+            'pro': false,
+            'support':false
+        },
+        csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
     }),
     mounted() {
         let recaptchaScript = document.createElement('script')
@@ -1245,6 +1312,11 @@ export default {
         document.head.appendChild(recaptchaScript)
 
     },
+    methods : {
+        check: function (id) {
+            this.checked[id] = !this.checked[id]
+        }
+    }
 }
 </script>
 
@@ -2818,7 +2890,7 @@ export default {
     }
 
     .contact .php-email-form label {
-        padding-bottom: 8px;
+        /*padding-bottom: 8px;*/
     }
 
     .contact .php-email-form input,
@@ -2853,6 +2925,30 @@ export default {
 
     .contact .php-email-form button[type=submit]:hover {
         background: #209dd8;
+    }
+
+    .contact .form-check-input {
+        margin: 0;
+    }
+
+    .contact .form-check-input {
+
+        vertical-align: top;
+        margin-left: -1.5em;
+        width: 3em;
+
+    }
+
+    .contact .form-check-label {
+        //margin-left: -1em;
+    }
+
+    .contact .php-email-form {
+        padding-bottom: 8px;
+    }
+
+    .contact .php-email-form input {
+        height: 36px;
     }
 
     @-webkit-keyframes animate-loading {

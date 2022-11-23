@@ -22,10 +22,23 @@
           content="Разработка и создание сайтов любой сложности по низким ценам">
     <meta property="og:description"
           content="Разработка и создание сайтов любой сложности по низким ценам">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/images/index/favicon.ico">
 </head>
 <body>
+@if (Session::get('success') )
+    <!-- Small modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Сообщение отправлено</button>
+
+    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                {{ Session::get('success') }}
+            </div>
+        </div>
+    </div>
+@endif
 <div id="app"></div>
 <script>
     window.config = @json([
