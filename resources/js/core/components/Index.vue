@@ -1026,10 +1026,16 @@
                                 <h3>Индивидуальная разработка</h3>
                                 <h4><sup>&#8381; </sup>2000<span>за человеко-час</span></h4>
                                 <ul>
-                                    <li><i class="bx bx-check" /> Проводится анализ проекта специалистами и формируется КП</li>
+                                    <li>
+                                        <i class="bx bx-check" /> Проводится анализ проекта специалистами и формируется
+                                        КП
+                                    </li>
                                     <li><i class="bx bx-check" /> Подключаются разработчики не ниже medium уровня</li>
                                     <li><i class="bx bx-check" /> Месяц техподдержки в подарок</li>
-                                    <li><i class="bx bx-check" /> Проект разрабатывается по scrum с 2 недельными интервалами отчетности</li>
+                                    <li>
+                                        <i class="bx bx-check" /> Проект разрабатывается по scrum с 2 недельными
+                                        интервалами отчетности
+                                    </li>
                                 </ul>
                                 <a
                                     href="#"
@@ -1048,7 +1054,10 @@
                                 <h4><sup>&#8381; </sup>2500<span>за человеко-час</span></h4>
                                 <ul>
                                     <li><i class="bx bx-check" /> Фикс: 40 чч в месяц - 100 000&#8381;</li>
-                                    <li><i class="bx bx-check" /> Цена одна, независимо от привлекаемых специалистов под нужды</li>
+                                    <li>
+                                        <i class="bx bx-check" /> Цена одна, независимо от привлекаемых специалистов под
+                                        нужды
+                                    </li>
                                     <li><i class="bx bx-check" /> Сопровождение проекта на всех его этапах ЖЦ</li>
                                     <li><i class="bx bx-check" /> Контроль за состоянием и производительностью</li>
                                 </ul>
@@ -1102,13 +1111,12 @@
                                     <h4>Telegram:</h4>
                                     <p>dvzakusilo</p>
                                 </div>
-
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                                    frameborder="0"
-                                    style="border:0; width: 100%; height: 290px;"
-                                    allowfullscreen
-                                />
+                                <div>
+                                    <img
+                                        src="/images/index/top_medium.png"
+                                        class="img-fluid"
+                                    >
+                                </div>
                             </div>
                         </div>
 
@@ -1188,6 +1196,7 @@
             <div class="footer-top">
                 <div class="container" />
             </div>
+
 
             <div class="container footer-bottom clearfix">
                 <div class="copyright">
@@ -1380,7 +1389,6 @@ export default {
         font-weight: 500;
         letter-spacing: 2px;
         text-transform: uppercase;
-
 
     }
 
