@@ -31,7 +31,7 @@ class SendSaleMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('WebVector - обращение с сайта.')->from($this->details['email'])
+        return $this->subject('WebVector - обращение с сайта.')->from('sale@web-vector.ru')
             ->view('emails.saleMail');
     }
 }
