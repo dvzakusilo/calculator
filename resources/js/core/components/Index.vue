@@ -999,7 +999,7 @@
                             data-aos="fade-up"
                             data-aos-delay="100"
                         >
-                            <div class="box">
+                            <div :class="checked['base'] ? 'box featured': 'box'">
                                 <h3>Сайт-шаблон</h3>
                                 <h4><sup>&#8381; </sup>1000<span>за человеко-час</span></h4>
                                 <ul>
@@ -1011,7 +1011,6 @@
                                     </li>
                                 </ul>
                                 <a
-                                    href="#contact"
                                     class="buy-btn"
                                     @click="check('base')"
                                 >Выбрать</a>
@@ -1023,7 +1022,7 @@
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            <div class="box featured">
+                            <div :class="checked['pro'] ? 'box featured': 'box'">
                                 <h3>Индивидуальная разработка</h3>
                                 <h4><sup>&#8381; </sup>2000<span>за человеко-час</span></h4>
                                 <ul>
@@ -1039,7 +1038,6 @@
                                     </li>
                                 </ul>
                                 <a
-                                    href="#contact"
                                     class="buy-btn"
                                     @click="check('pro')"
                                 >Выбрать</a>
@@ -1051,7 +1049,7 @@
                             data-aos="fade-up"
                             data-aos-delay="300"
                         >
-                            <div class="box">
+                            <div :class="checked['support'] ? 'box featured': 'box'">
                                 <h3>Техподдержка</h3>
                                 <h4><sup>&#8381; </sup>2500<span>за человеко-час</span></h4>
                                 <ul>
@@ -1064,7 +1062,6 @@
                                     <li><i class="bx bx-check" /> Контроль за состоянием и производительностью</li>
                                 </ul>
                                 <a
-                                    href="#contact"
                                     class="buy-btn"
                                     @click="check('support')"
                                 >Выбрать</a>
