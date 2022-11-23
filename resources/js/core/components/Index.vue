@@ -7,7 +7,10 @@
         >
             <div class="container d-flex align-items-center">
                 <h1 class="logo me-auto">
-                    <a href="index.html">WebStudio</a>
+                    <a href="/"><img
+                        src="/images/index/left_medium.png"
+                        class="img-fluid"
+                    ></a>
                 </h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo me-auto"><img src="/images/index/logo.png" alt="" class="img-fluid"></a>-->
@@ -1188,7 +1191,7 @@
 
             <div class="container footer-bottom clearfix">
                 <div class="copyright">
-                    &copy; Copyright <strong><span>WebStudio</span></strong>. 2022
+                    &copy; Copyright <strong><span>{{ title }}</span></strong>. 2022
                 </div>
                 <div class="credits" />
             </div>
@@ -1361,6 +1364,7 @@ export default {
         z-index: 997;
         padding: 15px 0;
         background: #3490dc;
+        background: rgba(40, 58, 90);
     }
 
     #header.header-scrolled,
@@ -1376,6 +1380,8 @@ export default {
         font-weight: 500;
         letter-spacing: 2px;
         text-transform: uppercase;
+
+
     }
 
     #header .logo a {
@@ -1432,7 +1438,7 @@ export default {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover > a {
-        color: yellow;
+        color: #00DF4D;
     }
 
     .navbar .getstarted,
