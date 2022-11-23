@@ -1088,7 +1088,7 @@
                                 <div class="email">
                                     <i class="bi bi-envelope" />
                                     <h4>Email:</h4>
-                                    <p>dvzakusilo@yandex.ru</p>
+                                    <p>sale@web-vector.ru</p>
                                 </div>
 
                                 <div class="phone">
