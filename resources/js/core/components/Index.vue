@@ -589,9 +589,9 @@
                         data-aos-delay="200"
                     >
                         <div
-                            v-for="ob in portfolio"
+                            v-for="(ob, key) in portfolio"
                             :ref="portfolio"
-                            :key="ob"
+                            :key="key"
                             :class="['col-lg-4 col-md-6 portfolio-item filter-'] + ob.type"
                         >
                             <div class="portfolio-img">
