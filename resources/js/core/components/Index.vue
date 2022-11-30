@@ -102,7 +102,7 @@
                         data-aos-delay="200"
                     >
                         <h1>Отличное решение для Вашего бизнеса</h1>
-                        <h2>Мы комада талантливых разработчиков, создающие вебсайты с энтузиазмом</h2>
+                        <h2>Мы - комада талантливых разработчиков, создающих вебсайты с энтузиазмом</h2>
                         <div class="d-flex justify-content-center justify-content-lg-start">
                             <a
                                 href="#about"
@@ -211,7 +211,7 @@
                     <div class="row content">
                         <div class="col-lg-6">
                             <p>
-                                Мы - команда разработчиков под руководством опытных специалистов с 20 летним стажем в
+                                Мы - команда разработчиков под руководством опытных специалистов с 20-летним стажем в
                                 разработке.
                             </p>
                             <ul>
@@ -224,7 +224,7 @@
                                     от дизайна до автоматизации внедрения на сервера.
                                 </li>
                                 <li>
-                                    <i class="ri-check-double-line" /> Мы не завышаем цены, так как, работа приносит нам
+                                    <i class="ri-check-double-line" /> Мы не завышаем цены, так как работа приносит нам
                                     удовольствие
                                 </li>
                             </ul>
@@ -235,7 +235,7 @@
                                 сопровождения проектов.
                             </p>
                             <p>
-                                Свяжитесь с нами и вместе мы найдем решение, как помочь Вашему бизнесу расцвести.
+                                Свяжитесь с нами, и вместе мы найдем решение, как помочь Вашему бизнесу расцвести.
                             </p>
                         </div>
                     </div>
@@ -584,254 +584,27 @@
                     </ul>
 
                     <div
-                        class="row portfolio-container"
+                        class="row row-flex portfolio-container"
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div
+                            v-for="ob in portfolio"
+                            :ref="portfolio"
+                            :key="ob"
+                            :class="['col-lg-4 col-md-6 portfolio-item filter-'] + ob.type"
+                        >
                             <div class="portfolio-img">
                                 <img
-                                    src="/images/index/portfolio/9zhizney1.jpg"
+                                    :src="ob.src"
                                     class="img-fluid"
                                     alt=""
                                 >
                             </div>
                             <div class="portfolio-info">
-                                <h4>9 Жизней</h4>
-                                <p>Ветеренарная клиника</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/teplo-tn-lp1.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Технониколь</h4>
-                                <p>Калькулятор выбора материала ("ТехноНИКОЛЬ")</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/v-oda1.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>v-oda</h4>
-                                <p>Сервис доставки воды "Утренняя Звезда"</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/megaalians-datsun1.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>megaaliance-datsun</h4>
-                                <p>Автосалон "МегаАльянс"</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/phoneone.png"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>LendsBay</h4>
-                                <p>Онлайн-займы на своих условиях</p>
-                                <p>React-native, python, iohttp</p>
-
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/clinic.JPG"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Гута клиника</h4>
-                                <p>Частная клиника</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/coralstrand.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Coral strand</h4>
-                                <p>Сайт отеля на сейшеллах</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/savoy.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Savoy</h4>
-                                <p>Сайт отеля в Москве</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/uniconf.JPG"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Uniconf</h4>
-                                <p>Объединенные кондитеры</p>
-                                <p>Bitrix</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/alenka.JPG"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Alenka</h4>
-                                <p>Кондитерский интернет-магазин</p>
-                                <p>Bitrix, Vue.js</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/eldorado.JPG"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Eldorado</h4>
-                                <p>Магазин домашней техники</p>
-                                <p>Bitrix, React, Laravel</p>
-                                <a
-                                    href="portfolio-details.html"
-                                    class="details-link"
-                                    title="More Details"
-                                ><i
-                                    class="bx bx-link"
-                                /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
-                            <div class="portfolio-img">
-                                <img
-                                    src="/images/index/portfolio/vprok.JPG"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Перекресток</h4>
-                                <p>Магазин товаров для дома</p>
-                                <p>Bitrix, React, Laravel</p>
+                                <h4>{{ ob.title }}</h4>
+                                <p>{{ ob.text }}</p>
+                                <p>{{ ob.use }}</p>
                                 <a
                                     href="portfolio-details.html"
                                     class="details-link"
@@ -987,7 +760,8 @@
                     <div class="section-title">
                         <h2>Цены</h2>
                         <p>
-                            У нас гибкая система построения цен на основании Ваших пожеланий, например, врятли Вам стоит
+                            У нас гибкая система построения цен на основании Ваших пожеланий, например, вряд ли Вам
+                            стоит
                             оплачивать ведущего разработчика, если Вам необходим сайт-визитка.
                             Однако, есть основные паттерны, на которые мы ориентируемся, и они представлены ниже.
                         </p>
@@ -1299,17 +1073,116 @@ export default {
         checked: {
             'base': false,
             'pro': false,
-            'support':false
+            'support': false
+        },
+        portfolio: {
+            life: {
+                src: '/images/index/portfolio/9zhizney1.jpg',
+                title: '9 Жизней',
+                text: 'Ветеренарная клиника',
+                use: 'Bitrix',
+                link: '/images/index/portfolio/teplo-tn-lp1.jpg',
+                type: 'web',
+            },
+            teplo: {
+                src: '/images/index/portfolio/teplo-tn-lp1.jpg',
+                title: 'Технониколь',
+                text: 'Калькулятор выбора материала ("ТехноНИКОЛЬ")',
+                use: 'Bitrix',
+                link: '',
+                type: 'web',
+            },
+            voda: {
+                src: '/images/index/portfolio/v-oda1.jpg',
+                title: 'v-oda',
+                text: 'Сервис доставки воды "Утренняя Звезда"',
+                use: 'Bitrix',
+                link: '',
+                type: 'web',
+            },
+            datsun: {
+                src: '/images/index/portfolio/megaalians-datsun1.jpg',
+                title: 'megaaliance-datsun',
+                text: 'Автосалон "МегаАльянс"',
+                use: 'Bitrix',
+                link: '',
+                type: 'web',
+            },
+            lenfdsbay: {
+                src: '/images/index/portfolio/phoneone.png',
+                title: 'LendsBay',
+                text: 'Онлайн-займы на своих условиях',
+                use: 'React-native, python, iohttp',
+                link: '',
+                type: 'app',
+            },
+            clinic: {
+                src: '/images/index/portfolio/clinic.JPG',
+                title: 'Гута клиника',
+                text: 'Частная клиника',
+                use: 'Bitrix',
+                link: '',
+                type: 'web',
+            },
+            coral: {
+                src: '/images/index/portfolio/coralstrand.jpg',
+                title: 'Coral strand',
+                text: 'Сайт отеля на сейшеллах',
+                use: 'Bitrix',
+                link: '',
+                type: 'web',
+            },
+            savoy: {
+                src: '/images/index/portfolio/savoy.jpg',
+                title: 'Savoy',
+                text: 'Сайт отеля в Москве',
+                use: 'Bitrix',
+                link: '',
+                type: 'web',
+            },
+            uniconf: {
+                src: '/images/index/portfolio/uniconf.JPG',
+                title: 'Uniconf',
+                text: 'Объединенные кондитеры',
+                use: 'Bitrix',
+                link: '',
+                type: 'shop',
+            },
+            alenka: {
+                src: '/images/index/portfolio/alenka.JPG',
+                title: 'Alenka',
+                text: 'Кондитерский интернет-магазин',
+                use: 'Bitrix, Vue.js',
+                link: '',
+                type: 'shop',
+            },
+            eldorado: {
+                src: '/images/index/portfolio/eldorado.JPG',
+                title: 'Eldorado',
+                text: 'Магазин домашней техники',
+                use: 'Bitrix, React, Laravel',
+                link: '',
+                type: 'shop',
+            },
+            vprok: {
+                src: '/images/index/portfolio/vprok.JPG',
+                title: 'Перекресток',
+                text: 'Магазин товаров для дома',
+                use: 'Bitrix, React, Laravel',
+                link: '',
+                type: 'shop',
+            },
         },
         csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
     }),
     mounted() {
+
         let recaptchaScript = document.createElement('script')
         recaptchaScript.setAttribute('src', '/includes/main.js')
         document.head.appendChild(recaptchaScript)
 
     },
-    methods : {
+    methods: {
         check: function (id) {
             this.checked[id] = !this.checked[id]
         }
@@ -2307,6 +2180,11 @@ export default {
         color: #fff;
     }
 
+    .portfolio-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
     .portfolio .portfolio-item {
         margin-bottom: 30px;
     }
@@ -2375,6 +2253,11 @@ export default {
     /*--------------------------------------------------------------
     # Portfolio Details
     --------------------------------------------------------------*/
+    .row-flex {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
     .portfolio-details {
         padding-top: 40px;
     }
