@@ -44,6 +44,12 @@
                                 href="#portfolio"
                             >Портфолио</a>
                         </li>
+                        <li>
+                            <a
+                                class="nav-link   scrollto"
+                                href="#pricing"
+                            >Цены</a>
+                        </li>
                         <!--                        <li>-->
                         <!--                            <a-->
                         <!--                                class="nav-link scrollto"-->
