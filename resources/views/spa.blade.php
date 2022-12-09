@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name') }}</title>
-    <meta name="keywords" content="создание сайтов, bitrix, битрикс, разработка сайтов, сделать сайт, laravel, vue">
+    <meta name="keywords" content="создание сайтов, сайт под ключ, разработка веб сайтов, bitrix, bitrix ru, битрикс, сайт на битрикс, битрикс товары, разработка сайтов, сделать сайт, laravel, vue">
     <meta name="description" content="Разработка и создание сайтов любой сложности по низким ценам">
     <meta property="og:image"
           content="https://web-vector.ru/images/index/top_image.png">
