@@ -64,5 +64,6 @@
             ])
 </script>
 <script src="{{ asset("js/app.js") }}" charset="utf-8"></script>
+<script src="//code.jivo.ru/widget/sBaP03AfcL" async></script>
 </body>
 </html>
